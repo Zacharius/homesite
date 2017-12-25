@@ -49,3 +49,8 @@ p, h1, h2, h3, li {
 h2 {
   text-decoration: underline;
 }
+
+.side {
+  background-color: #8c8c8c;
+  width: 5em;
+}
