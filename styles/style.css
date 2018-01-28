@@ -16,6 +16,7 @@ header h1 sup{
 
 header .menu {
     display: flex;
+    margins: 0;
 }
 
 header .menu h4{
