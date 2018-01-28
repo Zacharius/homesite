@@ -10,8 +10,17 @@ header {
     border-bottom: 5px solid ;
 }
 
-header h4{
+header h1 sup{
+    text-decoration: underline;
+}
+
+header .menu {
+    display: flex;
+}
+
+header .menu h4{
     font-family: 'Spectral SC', serif;
+    flex: 1;
 
   }
 
