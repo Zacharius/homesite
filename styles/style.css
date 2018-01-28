@@ -3,7 +3,7 @@ html *{
 }
 
 body {
-  /*background: linear-gradient(to left, #757575 1%, white );*/
+    width: 90;
 }
 header {
   height: 5em;
