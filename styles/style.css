@@ -7,14 +7,11 @@ body {
 }
 header {
 /*  height: 5em;*/
+    border-bottom: 5px solid ;
 }
 
 header h4{
     font-family: 'Spectral SC', serif;
-    padding: 0 .5em;
-    position: relative;
-    top: 3em;
-    float:  left;
 
   }
 
