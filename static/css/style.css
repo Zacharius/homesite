@@ -1,0 +1,51 @@
+
+body {
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    
+}
+header {
+/*  height: 5em;*/
+    border-bottom: 5px solid ;
+}
+
+header a {
+    color: black;
+    text-decoration: none
+}
+
+header h1 sup{
+    text-decoration: underline;
+}
+
+header .menu {
+    display: flex;
+}
+
+header .menu * {
+    margin: 0;
+    font-family: 'Spectral SC', serif;
+    flex: 1;
+}
+
+header .menu a:hover {
+    text-shadow: .25em -.25em .15em;
+}
+
+.articleLink {
+    background-color : #f2f2f2;
+}
+
+.articleLink a {
+    color: black;
+    text-decoration: none;
+}
+
+
+img {
+    width:100%;
+    border: 0;
+    margin: 0;
+    padding: 0;
+}

@@ -5,9 +5,9 @@ from django.urls import reverse
 class Article(models.Model):
 
     #Fields
-    title = models.CharField(max_length=30, primary_key=True)
+    title = models.CharField(max_length=250, primary_key=True)
     text = models.TextField()
-    author = models.CharField(max_length=30, default='Zachary Faddis')
+    author = models.CharField(max_length=100, default='Zachary Faddis')
     published = models.DateTimeField(auto_now=True)
 
 
@@ -25,4 +25,4 @@ class Article(models.Model):
         sumLen = len(self.text)
         if sumLen > 250:
             sumLen = 250
-        return self.text
+        return self.text[:sumLen]
